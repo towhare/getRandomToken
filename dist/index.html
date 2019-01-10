@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>我的从零开始的webpack项目</title>
+    <style>
+        html {
+            font-size: 100px;
+        }
+        body{
+            font-size: 16px;width:100%;height:100%;position:absolute;background-color: #d42915;background-image: url(static/img/banner.jpg);-webkit-background-size: 1920px auto;background-size: 1920px auto;background-position: bottom center;
+        }
+        /*初始化margin和padding以便于不同浏览器兼容*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media only screen and (max-device-width: 319px) {
+            html {
+                font-size: 45px;
+            }
+        }
+
+        @media only screen and ( min-device-width: 320px ) and ( max-device-width: 359px ) {
+            html {
+                font-size: 50px;
+            }
+        }
+
+        @media only screen and ( min-device-width: 360px ) and (max-device-width: 374px ) {
+            html {
+                font-size: 56.25px;
+            }
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            html {
+                font-size: 58.6px;
+            }
+        }
+
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+            html {
+                font-size: 64.68px;
+            }
+            body{
+                -webkit-background-size: 960px auto;
+                background-size: 960px auto;
+                background-position: top center;
+                background-repeat: no-repeat;
+            }
+        }
+
+    </style>
+</head>
+<body style="">
+    <div id="app"></div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>

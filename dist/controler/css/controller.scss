@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.block640{
+  width:6.4rem;
+  height:auto;
+  overflow: hidden;
+  margin:0 auto;
+  .switch{
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:4rem;
+    height:.8rem;
+    margin-left:-2rem;
+    font-size:.36rem;
+    background-color: #73C3FE;
+    border:none;
+    outline:none;
+    color:white;
+    transition: background-color .2s;
+    border-radius:.2rem;
+    &:hover{
+      background-color: #73C3FE;
+      cursor:pointer;
+    }
+    &:active{
+      background-color: #73C3FE;
+    }
+    &:visited{
+      background-color: #73C3FE;
+    }
+  }
+}

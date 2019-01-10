@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.block640 {
+  width: 6.4rem;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto; }
+  .block640 .switch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 4rem;
+    height: .8rem;
+    margin-left: -2rem;
+    margin-top: -.8rem;
+    font-size: .36rem;
+    background-color: #73C3FE;
+    border: none;
+    outline: none;
+    color: white;
+    transition: background-color .2s;
+    border-radius: .2rem; }
+    .block640 .switch:hover {
+      background-color: #73C3FE;
+      cursor: pointer; }
+    .block640 .switch:active {
+      background-color: #73C3FE; }
+    .block640 .switch:visited {
+      background-color: #73C3FE; }
+  .block640 .code {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 4rem;
+    height: .6rem;
+    margin-left: -2rem;
+    margin-top: -1.8rem;
+    font-size: .36rem;
+    line-height: .6rem;
+    outline: none;
+    border: .03rem solid #ccc;
+    text-align: center;
+    transition: background-color .2s;
+    border-radius: .2rem; }
+
+/*# sourceMappingURL=controller.css.map */
